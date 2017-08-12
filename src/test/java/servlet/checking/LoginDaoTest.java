@@ -28,7 +28,7 @@ public class LoginDaoTest {
 
 		boolean t2 = ld.validate(u2, p2);
 
-		Assert.assertNotEquals("It is passed with worng credentials", true, t2);
+		Assert.assertNotSame("It is passed with worng credentials", true, t2);
 	}
 	
 }
