@@ -1,9 +1,8 @@
 package servlet.checking;
 
-import static org.junit.Assert.assertArrayEquals;
-
-import org.junit.Assert;
 import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class LoginDaoTest {
 
